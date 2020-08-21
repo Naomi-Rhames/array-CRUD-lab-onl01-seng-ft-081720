@@ -1,17 +1,20 @@
 def create_an_empty_array
-  
+  family = []
 end
 
 def create_an_array
-  
+  family = ["mother", "Father", "Daughter", "Son"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
-end
+  family = ["mother`,Father", "Daughter", "Son"]
+    family. push ("Grandma")
+  puts family.inspect 
+  # >["mother`,"Father","Daughter","Son"]
+end 
 
 def add_element_to_start_of_array(array, element)
-  
+  r
 end
 
 def remove_element_from_end_of_array(array)
